@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1>Welcome to Salary Prediction</h1>
+
+        <form action="predict" method="post">
+            <input type='text' name='experience' placeholder='experience' required='required' />
+            <input type='text' name='test_score' placeholder='test_score' required='required' />
+            <input type='number' name='interview_score' placeholder='interview_score' required='required' />
+
+            <button type='Submit'>Predict</button>
+        </form>
+
+        {{prediction_text}}
+
+    </body>
+</html>
